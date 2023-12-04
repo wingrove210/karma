@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.third-section{
+   background-color: rgb(14, 14, 39);
+   height: 100vh;
+}
+.karma-name{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.karma-name h1{
+    font-size: 100px;
+    font-weight: 400;
+    font-family: Dune Rise;
+    color: white;
+}
+.grid-karma-block{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: absolute;
+    top: 200vh;
+}
+.grid-karma{
+    display: grid;
+    grid-template-columns: repeat(3, calc(var(--size)*5));
+    column-gap: 30vw;
+    row-gap: 70vh;
+}
+.grid-karma-item{
+    text-align: center;
+}
+.grid-karma-item p{
+    color: white;
+    font-size: 35px;
+    font-family: Dune Rise;
+}
+.grid-karma-item:nth-child(1) p, .grid-karma-item:nth-child(2) p, .grid-karma-item:nth-child(3) p{
+    color: black;
+}

@@ -1,0 +1,45 @@
+.header-buttons{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    margin-right: 100px;
+    position: absolute;
+    width: 100vw;
+    top: 20px;
+    gap: 60px;
+    padding-right: 120px;
+}
+.btn-register-block img{
+    position: absolute;
+    margin-right: 100px;
+    /* box-shadow: 1px 1px 20px 0px #B5FFFE; */
+    clip-path: polygon( 
+        0% 0%,/* верхняя левая */ 
+     0% 0%, /* верхняя левая */ 
+     100% 0%, /* нижняя левая */ 
+     50% -100%, /* верхняя правая */ 
+    100% 95%, /* нижняя правая */ 
+    95% 100%, /* нижняя правая */ 
+    20% 100%, /* нижняя левая */ 
+    0% 55% /* нижняя левая */ );
+    background-color: black;
+}
+.btn-register-block p{
+    position: relative;
+    width: 140px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: Marske;
+}
+.btn-enter-block img{
+    position: absolute;
+    margin-right: 100px;
+}
+.btn-enter-block p{
+    position: relative;
+    color: white;
+    width: 140px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: Marske;
+}

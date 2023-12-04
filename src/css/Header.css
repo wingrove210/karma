@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 10;
+    position: relative;
+}
+.header-links{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    transform: rotate(360deg);
+    gap: 180px;
+    width: 70px;
+}
+.header-link{
+    transform: rotate(90deg);
+    font-size: 20px;
+    font-family: Dune Rise;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    /* width: 300px; */
+}
+.header-link:first-child{
+    text-align: right;
+}
